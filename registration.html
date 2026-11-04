@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+    <h2>Event Registration Form</h2>
+
+    <label>Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Email:</label>
+    <input type="text" id="email"><br><br>
+
+    <label>Mobile:</label>
+    <input type="text" id="mobile"><br><br>
+
+    <button onclick="register()">Register</button>
+
+    <p id="message"></p>
+
+    <script>
+        function register() {
+            document.getElementById("message").innerHTML =
+                "Registration Successful!";
+        }
+    </script>
+</body>
+</html>
